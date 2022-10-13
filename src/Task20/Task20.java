@@ -6,7 +6,7 @@ public class Task20 {
     public static void main(String[] args) {
         int[] array = new int[3];
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * 20 + 10);
+            array[i] = (int) (Math.random() * 90 + 10);
         }
         System.out.println(Arrays.toString(array));
 
